@@ -16,6 +16,8 @@ class DayEntry : Object {
   dynamic var eyesAffliction: Int8 = 0
   dynamic var skinAffliction: Int8 = 0
   dynamic var respirationAffliction: Int8 = 0
+  dynamic var hoursOfSleep: Double = 0.0
+  dynamic var outdoorTime: Double = 0.0
   let medicine = List<Medicine>()
   let provisions = List<Provision>()
   let pollenContaminations = List<PollenContamination>()

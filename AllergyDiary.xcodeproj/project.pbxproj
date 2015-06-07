@@ -10,7 +10,6 @@
 		F2B029101B241B6300A2CD6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B0290F1B241B6300A2CD6E /* AppDelegate.swift */; };
 		F2B029171B241B6300A2CD6E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2B029161B241B6300A2CD6E /* Images.xcassets */; };
 		F2B0291A1B241B6300A2CD6E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2B029181B241B6300A2CD6E /* LaunchScreen.xib */; };
-		F2B029261B241B6300A2CD6E /* AllergyDiaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B029251B241B6300A2CD6E /* AllergyDiaryTests.swift */; };
 		F2B029311B241E4900A2CD6E /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2B0292F1B241E4900A2CD6E /* Realm.framework */; };
 		F2B029321B241E4900A2CD6E /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2B029301B241E4900A2CD6E /* RealmSwift.framework */; };
 		F2B029351B2422EB00A2CD6E /* DayEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B029341B2422EB00A2CD6E /* DayEntry.swift */; };
@@ -37,7 +36,6 @@
 		F2B029191B241B6300A2CD6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F2B0291F1B241B6300A2CD6E /* AllergyDiaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AllergyDiaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2B029241B241B6300A2CD6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F2B029251B241B6300A2CD6E /* AllergyDiaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllergyDiaryTests.swift; sourceTree = "<group>"; };
 		F2B0292F1B241E4900A2CD6E /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
 		F2B029301B241E4900A2CD6E /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
 		F2B029341B2422EB00A2CD6E /* DayEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DayEntry.swift; path = Model/DayEntry.swift; sourceTree = "<group>"; };
@@ -111,7 +109,6 @@
 		F2B029221B241B6300A2CD6E /* AllergyDiaryTests */ = {
 			isa = PBXGroup;
 			children = (
-				F2B029251B241B6300A2CD6E /* AllergyDiaryTests.swift */,
 				F2B029231B241B6300A2CD6E /* Supporting Files */,
 			);
 			path = AllergyDiaryTests;
@@ -266,7 +263,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2B029261B241B6300A2CD6E /* AllergyDiaryTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
