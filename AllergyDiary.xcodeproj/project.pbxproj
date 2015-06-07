@@ -8,11 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		F2B029101B241B6300A2CD6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B0290F1B241B6300A2CD6E /* AppDelegate.swift */; };
-		F2B029121B241B6300A2CD6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B029111B241B6300A2CD6E /* ViewController.swift */; };
-		F2B029151B241B6300A2CD6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2B029131B241B6300A2CD6E /* Main.storyboard */; };
 		F2B029171B241B6300A2CD6E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2B029161B241B6300A2CD6E /* Images.xcassets */; };
 		F2B0291A1B241B6300A2CD6E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2B029181B241B6300A2CD6E /* LaunchScreen.xib */; };
 		F2B029261B241B6300A2CD6E /* AllergyDiaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B029251B241B6300A2CD6E /* AllergyDiaryTests.swift */; };
+		F2B029311B241E4900A2CD6E /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2B0292F1B241E4900A2CD6E /* Realm.framework */; };
+		F2B029321B241E4900A2CD6E /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2B029301B241E4900A2CD6E /* RealmSwift.framework */; };
+		F2B029351B2422EB00A2CD6E /* DayEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B029341B2422EB00A2CD6E /* DayEntry.swift */; };
+		F2B0293B1B242A9900A2CD6E /* Medicine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B0293A1B242A9900A2CD6E /* Medicine.swift */; };
+		F2B0293D1B242C8B00A2CD6E /* Provision.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B0293C1B242C8B00A2CD6E /* Provision.swift */; };
+		F2B0293F1B24331800A2CD6E /* PollenContamination.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B0293E1B24331800A2CD6E /* PollenContamination.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +33,18 @@
 		F2B0290A1B241B6300A2CD6E /* AllergyDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllergyDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2B0290E1B241B6300A2CD6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2B0290F1B241B6300A2CD6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F2B029111B241B6300A2CD6E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F2B029141B241B6300A2CD6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2B029161B241B6300A2CD6E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F2B029191B241B6300A2CD6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F2B0291F1B241B6300A2CD6E /* AllergyDiaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AllergyDiaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2B029241B241B6300A2CD6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2B029251B241B6300A2CD6E /* AllergyDiaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllergyDiaryTests.swift; sourceTree = "<group>"; };
+		F2B0292F1B241E4900A2CD6E /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
+		F2B029301B241E4900A2CD6E /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
+		F2B029341B2422EB00A2CD6E /* DayEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DayEntry.swift; path = Model/DayEntry.swift; sourceTree = "<group>"; };
+		F2B029391B24292700A2CD6E /* TestPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TestPlayground.playground; sourceTree = "<group>"; };
+		F2B0293A1B242A9900A2CD6E /* Medicine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Medicine.swift; path = Model/Medicine.swift; sourceTree = "<group>"; };
+		F2B0293C1B242C8B00A2CD6E /* Provision.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Provision.swift; path = Model/Provision.swift; sourceTree = "<group>"; };
+		F2B0293E1B24331800A2CD6E /* PollenContamination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PollenContamination.swift; path = Model/PollenContamination.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +52,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2B029311B241E4900A2CD6E /* Realm.framework in Frameworks */,
+				F2B029321B241E4900A2CD6E /* RealmSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +70,9 @@
 		F2B029011B241B6200A2CD6E = {
 			isa = PBXGroup;
 			children = (
+				F2B029391B24292700A2CD6E /* TestPlayground.playground */,
+				F2B0292F1B241E4900A2CD6E /* Realm.framework */,
+				F2B029301B241E4900A2CD6E /* RealmSwift.framework */,
 				F2B0290C1B241B6300A2CD6E /* AllergyDiary */,
 				F2B029221B241B6300A2CD6E /* AllergyDiaryTests */,
 				F2B0290B1B241B6300A2CD6E /* Products */,
@@ -78,8 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				F2B0290F1B241B6300A2CD6E /* AppDelegate.swift */,
-				F2B029111B241B6300A2CD6E /* ViewController.swift */,
-				F2B029131B241B6300A2CD6E /* Main.storyboard */,
+				F2B029361B2422F200A2CD6E /* Model */,
 				F2B029161B241B6300A2CD6E /* Images.xcassets */,
 				F2B029181B241B6300A2CD6E /* LaunchScreen.xib */,
 				F2B0290D1B241B6300A2CD6E /* Supporting Files */,
@@ -112,6 +125,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F2B029361B2422F200A2CD6E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F2B029341B2422EB00A2CD6E /* DayEntry.swift */,
+				F2B0293A1B242A9900A2CD6E /* Medicine.swift */,
+				F2B0293C1B242C8B00A2CD6E /* Provision.swift */,
+				F2B0293E1B24331800A2CD6E /* PollenContamination.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,6 +146,7 @@
 				F2B029061B241B6300A2CD6E /* Sources */,
 				F2B029071B241B6300A2CD6E /* Frameworks */,
 				F2B029081B241B6300A2CD6E /* Resources */,
+				F2B029331B241E6E00A2CD6E /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -192,7 +217,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2B029151B241B6300A2CD6E /* Main.storyboard in Resources */,
 				F2B0291A1B241B6300A2CD6E /* LaunchScreen.xib in Resources */,
 				F2B029171B241B6300A2CD6E /* Images.xcassets in Resources */,
 			);
@@ -207,13 +231,34 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		F2B029331B241E6E00A2CD6E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Realm.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RealmSwift.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F2B029061B241B6300A2CD6E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2B029121B241B6300A2CD6E /* ViewController.swift in Sources */,
 				F2B029101B241B6300A2CD6E /* AppDelegate.swift in Sources */,
+				F2B0293F1B24331800A2CD6E /* PollenContamination.swift in Sources */,
+				F2B0293B1B242A9900A2CD6E /* Medicine.swift in Sources */,
+				F2B029351B2422EB00A2CD6E /* DayEntry.swift in Sources */,
+				F2B0293D1B242C8B00A2CD6E /* Provision.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,14 +281,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F2B029131B241B6300A2CD6E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F2B029141B241B6300A2CD6E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F2B029181B241B6300A2CD6E /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -340,6 +377,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = AllergyDiary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -350,6 +391,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = AllergyDiary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -409,6 +454,7 @@
 				F2B0292B1B241B6300A2CD6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F2B0292C1B241B6300A2CD6E /* Build configuration list for PBXNativeTarget "AllergyDiaryTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +463,7 @@
 				F2B0292E1B241B6300A2CD6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
