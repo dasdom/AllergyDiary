@@ -16,6 +16,13 @@
 		F2B0293B1B242A9900A2CD6E /* Medicine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B0293A1B242A9900A2CD6E /* Medicine.swift */; };
 		F2B0293D1B242C8B00A2CD6E /* Provision.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B0293C1B242C8B00A2CD6E /* Provision.swift */; };
 		F2B0293F1B24331800A2CD6E /* PollenContamination.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B0293E1B24331800A2CD6E /* PollenContamination.swift */; };
+		F2B029411B24A34900A2CD6E /* TestingWithRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B029401B24A34900A2CD6E /* TestingWithRealm.swift */; };
+		F2B029431B24AF4600A2CD6E /* DiaryEntryListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B029421B24AF4600A2CD6E /* DiaryEntryListDataSource.swift */; };
+		F2B029461B24AFBC00A2CD6E /* DiaryEntryListDataSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B029451B24AFBC00A2CD6E /* DiaryEntryListDataSourceTests.swift */; };
+		F2E957811B24CE0B006FCE2A /* DiaryEntryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E957801B24CE0B006FCE2A /* DiaryEntryListViewController.swift */; };
+		F2E957841B24D208006FCE2A /* EntryInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E957831B24D208006FCE2A /* EntryInputViewController.swift */; };
+		F2E957871B24D294006FCE2A /* EntryInputDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E957861B24D294006FCE2A /* EntryInputDataSource.swift */; };
+		F2E957891B24D628006FCE2A /* EntryInputDataSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E957881B24D628006FCE2A /* EntryInputDataSourceTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +50,13 @@
 		F2B0293A1B242A9900A2CD6E /* Medicine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Medicine.swift; path = Model/Medicine.swift; sourceTree = "<group>"; };
 		F2B0293C1B242C8B00A2CD6E /* Provision.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Provision.swift; path = Model/Provision.swift; sourceTree = "<group>"; };
 		F2B0293E1B24331800A2CD6E /* PollenContamination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PollenContamination.swift; path = Model/PollenContamination.swift; sourceTree = "<group>"; };
+		F2B029401B24A34900A2CD6E /* TestingWithRealm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestingWithRealm.swift; sourceTree = "<group>"; };
+		F2B029421B24AF4600A2CD6E /* DiaryEntryListDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiaryEntryListDataSource.swift; path = DiaryEntryList/DiaryEntryListDataSource.swift; sourceTree = "<group>"; };
+		F2B029451B24AFBC00A2CD6E /* DiaryEntryListDataSourceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiaryEntryListDataSourceTests.swift; path = DiaryEntryList/DiaryEntryListDataSourceTests.swift; sourceTree = "<group>"; };
+		F2E957801B24CE0B006FCE2A /* DiaryEntryListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiaryEntryListViewController.swift; path = DiaryEntryList/DiaryEntryListViewController.swift; sourceTree = "<group>"; };
+		F2E957831B24D208006FCE2A /* EntryInputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EntryInputViewController.swift; path = AddEntry/EntryInputViewController.swift; sourceTree = "<group>"; };
+		F2E957861B24D294006FCE2A /* EntryInputDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EntryInputDataSource.swift; path = AddEntry/EntryInputDataSource.swift; sourceTree = "<group>"; };
+		F2E957881B24D628006FCE2A /* EntryInputDataSourceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EntryInputDataSourceTests.swift; path = AddEntry/EntryInputDataSourceTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				F2B0290F1B241B6300A2CD6E /* AppDelegate.swift */,
+				F2E957851B24D20F006FCE2A /* AddEntry */,
+				F2B029441B24AF6A00A2CD6E /* DiaryList */,
 				F2B029361B2422F200A2CD6E /* Model */,
 				F2B029161B241B6300A2CD6E /* Images.xcassets */,
 				F2B029181B241B6300A2CD6E /* LaunchScreen.xib */,
@@ -109,6 +125,9 @@
 		F2B029221B241B6300A2CD6E /* AllergyDiaryTests */ = {
 			isa = PBXGroup;
 			children = (
+				F2B029401B24A34900A2CD6E /* TestingWithRealm.swift */,
+				F2E9578A1B24D63B006FCE2A /* AddEntry */,
+				F2E957821B24CE1B006FCE2A /* DiaryList */,
 				F2B029231B241B6300A2CD6E /* Supporting Files */,
 			);
 			path = AllergyDiaryTests;
@@ -131,6 +150,40 @@
 				F2B0293E1B24331800A2CD6E /* PollenContamination.swift */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		F2B029441B24AF6A00A2CD6E /* DiaryList */ = {
+			isa = PBXGroup;
+			children = (
+				F2B029421B24AF4600A2CD6E /* DiaryEntryListDataSource.swift */,
+				F2E957801B24CE0B006FCE2A /* DiaryEntryListViewController.swift */,
+			);
+			name = DiaryList;
+			sourceTree = "<group>";
+		};
+		F2E957821B24CE1B006FCE2A /* DiaryList */ = {
+			isa = PBXGroup;
+			children = (
+				F2B029451B24AFBC00A2CD6E /* DiaryEntryListDataSourceTests.swift */,
+			);
+			name = DiaryList;
+			sourceTree = "<group>";
+		};
+		F2E957851B24D20F006FCE2A /* AddEntry */ = {
+			isa = PBXGroup;
+			children = (
+				F2E957831B24D208006FCE2A /* EntryInputViewController.swift */,
+				F2E957861B24D294006FCE2A /* EntryInputDataSource.swift */,
+			);
+			name = AddEntry;
+			sourceTree = "<group>";
+		};
+		F2E9578A1B24D63B006FCE2A /* AddEntry */ = {
+			isa = PBXGroup;
+			children = (
+				F2E957881B24D628006FCE2A /* EntryInputDataSourceTests.swift */,
+			);
+			name = AddEntry;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,9 +306,13 @@
 			files = (
 				F2B029101B241B6300A2CD6E /* AppDelegate.swift in Sources */,
 				F2B0293F1B24331800A2CD6E /* PollenContamination.swift in Sources */,
+				F2E957841B24D208006FCE2A /* EntryInputViewController.swift in Sources */,
+				F2B029431B24AF4600A2CD6E /* DiaryEntryListDataSource.swift in Sources */,
 				F2B0293B1B242A9900A2CD6E /* Medicine.swift in Sources */,
+				F2E957871B24D294006FCE2A /* EntryInputDataSource.swift in Sources */,
 				F2B029351B2422EB00A2CD6E /* DayEntry.swift in Sources */,
 				F2B0293D1B242C8B00A2CD6E /* Provision.swift in Sources */,
+				F2E957811B24CE0B006FCE2A /* DiaryEntryListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +320,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2B029461B24AFBC00A2CD6E /* DiaryEntryListDataSourceTests.swift in Sources */,
+				F2B029411B24A34900A2CD6E /* TestingWithRealm.swift in Sources */,
+				F2E957891B24D628006FCE2A /* EntryInputDataSourceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,6 +433,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -387,6 +448,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -401,9 +463,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(SRCROOT)/Carthage/Build/iOS",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -412,6 +476,7 @@
 				INFOPLIST_FILE = AllergyDiaryTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AllergyDiary.app/AllergyDiary";
 			};
 			name = Debug;
@@ -420,9 +485,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(SRCROOT)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = AllergyDiaryTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
