@@ -22,7 +22,7 @@ class TestingWithRealm: XCTestCase {
     let path = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)
     
     let testRealmPath = "\(path.first!)/\(TestRealm)"
-    println(testRealmPath)
+    print(testRealmPath)
     Realm.defaultPath = testRealmPath
     
   }

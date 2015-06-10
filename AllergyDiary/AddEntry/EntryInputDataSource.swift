@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class EntryInputDataSource: NSObject {
+public class EntryInputDataSource: NSObject, UITableViewDataSource {
   
   public let entry: DayEntry
   
@@ -37,6 +37,9 @@ public class EntryInputDataSource: NSObject {
     return numberOfRows
   }
   
+  public func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+    return UITableViewCell()
+  }
 }
 
 enum EntryInputSectionTypes: Int {

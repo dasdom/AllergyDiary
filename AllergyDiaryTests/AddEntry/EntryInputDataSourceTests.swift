@@ -14,11 +14,14 @@ import RealmSwift
 class EntryInputDataSourceTests: XCTestCase {
   
   var dataSource: EntryInputDataSource!
+  var tableView: UITableView!
   
   override func setUp() {
     super.setUp()
 
     dataSource = EntryInputDataSource()
+    let viewController = EntryInputViewController()
+    tableView = viewController.tableView
   }
   
   override func tearDown() {
@@ -40,6 +43,12 @@ class EntryInputDataSourceTests: XCTestCase {
     XCTAssertEqual(dataSource.tableView(UITableView(), numberOfRowsInSection: 0), 1, "Wrong number of rows")
     XCTAssertEqual(dataSource.tableView(UITableView(), numberOfRowsInSection: 1), 5, "Wrong number of rows")
     XCTAssertEqual(dataSource.tableView(UITableView(), numberOfRowsInSection: 2), 2, "Wrong number of rows")
+  }
+  
+  func testFistRowInSecondSectionIsAAfflictionCell() {
+    let cell = dataSource.tableView(tableView, cellForRowAtIndexPath: NSIndexPath(forRow: 0, inSection: 1))
+    
+    XCTAssertTrue(cell is AfflictionInputCell, "Wrong type")
   }
   
 }

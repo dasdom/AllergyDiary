@@ -23,6 +23,7 @@
 		F2E957841B24D208006FCE2A /* EntryInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E957831B24D208006FCE2A /* EntryInputViewController.swift */; };
 		F2E957871B24D294006FCE2A /* EntryInputDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E957861B24D294006FCE2A /* EntryInputDataSource.swift */; };
 		F2E957891B24D628006FCE2A /* EntryInputDataSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E957881B24D628006FCE2A /* EntryInputDataSourceTests.swift */; };
+		F2E9578C1B256D9F006FCE2A /* AfflictionInputCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E9578B1B256D9F006FCE2A /* AfflictionInputCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		F2E957831B24D208006FCE2A /* EntryInputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EntryInputViewController.swift; path = AddEntry/EntryInputViewController.swift; sourceTree = "<group>"; };
 		F2E957861B24D294006FCE2A /* EntryInputDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EntryInputDataSource.swift; path = AddEntry/EntryInputDataSource.swift; sourceTree = "<group>"; };
 		F2E957881B24D628006FCE2A /* EntryInputDataSourceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EntryInputDataSourceTests.swift; path = AddEntry/EntryInputDataSourceTests.swift; sourceTree = "<group>"; };
+		F2E9578B1B256D9F006FCE2A /* AfflictionInputCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AfflictionInputCell.swift; path = AddEntry/AfflictionInputCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +176,7 @@
 			children = (
 				F2E957831B24D208006FCE2A /* EntryInputViewController.swift */,
 				F2E957861B24D294006FCE2A /* EntryInputDataSource.swift */,
+				F2E9578B1B256D9F006FCE2A /* AfflictionInputCell.swift */,
 			);
 			name = AddEntry;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 		F2B029021B241B6200A2CD6E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Dominik Hauser";
 				TargetAttributes = {
@@ -305,6 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2B029101B241B6300A2CD6E /* AppDelegate.swift in Sources */,
+				F2E9578C1B256D9F006FCE2A /* AfflictionInputCell.swift in Sources */,
 				F2B0293F1B24331800A2CD6E /* PollenContamination.swift in Sources */,
 				F2E957841B24D208006FCE2A /* EntryInputViewController.swift in Sources */,
 				F2B029431B24AF4600A2CD6E /* DiaryEntryListDataSource.swift in Sources */,
